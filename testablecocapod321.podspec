@@ -8,35 +8,22 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testablecocapod321'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of testablecocapod321.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/KamilNatonek/testablecocapod321'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KamilNatonek' => 'kamil.natonek@withintent.com' }
   s.source           = { :git => 'https://github.com/KamilNatonek/testablecocapod321.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'testablecocapod321/Classes/**/*'
+   s.source_files  = "ios/**/*.{h,m,swift}"
   
-  # s.resource_bundles = {
-  #   'testablecocapod321' => ['testablecocapod321/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
